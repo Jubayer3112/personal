@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  width: 65%;
+  margin: auto;
+}
+
+.logo {
+  float: left;
+}
+.navigation {
+  float: right;
+}
+.navigation ul {
+  list-style: none;
+}
+.navigation ul li {
+  display: inline-block;
+  margin-left: 50px;
+  color: #474747;
+  font-size: 20px;
+}
+.navigation ul li button {
+  padding: 18px 36px;
+  font-size: 20px;
+  background: #fd6e0a;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+}
+.header {
+  padding: 50px 230px;
+}
+.main {
+  background-color: #fff8f3;
+  background-image: url("./images/Group\ 12.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: relative;
+}
+
+/* Banner section */
+.left_banner {
+  float: left;
+  padding-left: 230px;
+}
+.left_banner h3 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+.left_banner h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.left_banner p {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.right_banner {
+  float: right;
+}
+.btn1 {
+  padding: 17px 20px;
+  background: #fd6e0a;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.btn2 {
+  padding: 15px 20px;
+  border: 2px solid #fd6e0a;
+  background: transparent;
+  margin-left: 30px;
+  font-size: 20px;
+  color: #fd6e0a;
+  border-radius: 5px;
+}
+.developer {
+  position: absolute;
+  left: 59px;
+  top: 36px;
+}
+
+/* About */
+.about {
+  background: #fff8f3;
+  margin: 130px 0;
+  padding: 130px 0;
+}
+.section_title h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section_title > p {
+  text-align: center;
+  font-size: 18px;
+  padding: 30px 0;
+}
+
+.infos {
+  width: 640px;
+  margin: auto;
+}
+.info {
+  float: left;
+  text-align: center;
+  margin-left: 50px;
+}
+/* Services */
+
+.services {
+  margin-bottom: 130px;
+}
+.service {
+  float: left;
+  width: 22%;
+  margin-left: 2%;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.service h3 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.service p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* resume */
+.resumes h2 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.summery {
+  padding: 30px 0;
+}
+.summery:nth-child(3) {
+  border-bottom: 1px solid #d1d1d1;
+  border-top: 1px solid #d1d1d1;
+}
+.summery h3 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.summery span {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 0 20px 0;
+  display: inline-block;
+}
+.summery p {
+  color: #757575;
+}
+.resume-left {
+  float: left;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.btn {
+  margin: auto;
+  width: 200px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+/* contaact */
+.left {
+  float: left;
+  width: 48%;
+}
+.right {
+  float: left;
+  width: 48%;
+  margin-left: 2%;
+}
+.right input,
+textarea {
+  display: block;
+  outline: none;
+}
+.right input {
+  padding: 18px 67px 18px 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+.right textarea {
+  padding:18px 0 0 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+.contact {
+  background: #fff8f3;
+  padding: 130px;
+}
+.left i{
+    color: #fd6e0a;
+}
+.left p{
+    padding: 20px 0;
+}
+form{
+    margin-top: 40px;
+}
